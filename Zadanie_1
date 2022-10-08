@@ -1,5 +1,8 @@
 1.A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
 
+Klasa abstrakcyjna jest dedykowana do tworzenia hierarchii klas i współdzielenia kodu pomiędzy obiektami
+Interfejsy są idealnym rozwiązaniem do tworzenia kontraktów określających co ma dana klasa robić bez określania w jaki sposób
+
 1.B. Czym różni się tablica od listy liniowej?
 
 Tablica to struktura danych, która w pamięci przechowywana jest jako cały blok, przechowują więcej niż jeden element danego typu. 
@@ -15,4 +18,8 @@ Dzięki tej właściwości dodawanie lub usuwanie elementów jest natychmiastowe
 Jednakże negatywną cechą takiej struktury jest bardzo długi czas odczytu w opozycji do tablicy. Aby odczytać ostatni element listy musimy przejść przez 
 wszystkie elementy, aż  wartość na samym końcu zostanie odczytana.
 
-– nie trzeba podawać rozmiaru listy przy jej tworzeniu, – rozmiar listy jest zmieniany dynamicznie podczas wstawiania elementów, – sposób przechowywania elementów zależy od konkretnego typu listy
+– nie trzeba podawać rozmiaru listy przy jej tworzeniu;
+– rozmiar listy jest zmieniany dynamicznie podczas wstawiania elementów;
+– sposób przechowywania elementów zależy od konkretnego typu listy;
+- długi czas odczytu w porównaniu do tablicy;
+- natychmiastowe dodawanie/usuwanie elementów w odróżnieniu od tablicy
