@@ -1,0 +1,18 @@
+1.A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+
+1.B. Czym różni się tablica od listy liniowej?
+
+Tablica to struktura danych, która w pamięci przechowywana jest jako cały blok, przechowują więcej niż jeden element danego typu. 
+Jeśli w tablicy jest kilka elementów, to elementy te znajdują się obok siebie. W przypadku dodawania lub usuwania elementów w środku listy, to wpływa 
+negatywnie na czas wykonania tych operacji, ponieważ wszystkie pozostałe elementy muszą zostać przesunięte. Często zdarza się tak, iż nie możemy przesunąć 
+tych elementów, bo brakuje pamięci, wtedy szukany jest kolejny obszar, który jest w stanie pomieścić tą tablicę z o jednym elementem więcej, co po raz kolejny 
+wydłuża operację dodawania.
+Pozytywną cechą takiej struktury jest bardzo szybki czas odczytu, ponieważ elementy tablicy znajdują się w jednym miejscu, co oznacza, iż nie ma potrzeby 
+przeszukiwania całego obszaru pamięci
+
+Lista to kolejną strukturą danych. Każdy element w pamięci, który znajduje się w liście przechowuje swoją wartość oraz pamięta adres kolejnego elementu. 
+Dzięki tej właściwości dodawanie lub usuwanie elementów jest natychmiastowe, ponieważ następuje tylko przepięcie wskaźników.
+Jednakże negatywną cechą takiej struktury jest bardzo długi czas odczytu w opozycji do tablicy. Aby odczytać ostatni element listy musimy przejść przez 
+wszystkie elementy, aż  wartość na samym końcu zostanie odczytana.
+
+– nie trzeba podawać rozmiaru listy przy jej tworzeniu, – rozmiar listy jest zmieniany dynamicznie podczas wstawiania elementów, – sposób przechowywania elementów zależy od konkretnego typu listy
